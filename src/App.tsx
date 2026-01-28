@@ -454,4 +454,11 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default function App() {
+  return (
+    <div style={{ padding: 40 }}>
+      <h1>Math Master 12 – App đã chạy</h1>
+      <p>Nếu thấy dòng này, Vite + React + Vercel đã OK</p>
+    </div>
+  );
+}
