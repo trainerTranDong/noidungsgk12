@@ -14,3 +14,10 @@ root.render(
     <App />
   </React.StrictMode>
 );
+export default function App() {
+  return (
+    <div className="min-h-screen bg-white text-black p-4">
+      <h1 className="text-2xl font-bold">Ứng dụng đã chạy</h1>
+    </div>
+  );
+}
